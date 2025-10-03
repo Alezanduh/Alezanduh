@@ -19,7 +19,7 @@ Below is references to some of my work in coding and data analytics:
   - An indepth analysis into the changing formation of NBA stardom
   - Analysis on the correlation between additive skills and heliocentrism success in R
 
-# [Traveling Sales Person Problem](https://github.com/Alezanduh/p4-donuts/blob/main/project4.cpp)
+# [Traveling Sales Person Problem](https://github.com/Alezanduh/p4-donuts)
   - Created greedy and optimized implementations of the traveling salesperson problem in C++
   - Used Furthest Neighbor, 2-opt and Prim's algorithm to resolve multiple solutions
 
