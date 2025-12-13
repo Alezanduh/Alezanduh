@@ -1,6 +1,6 @@
 ## Hello! 👋
 
-I'm Alexander Marsh a junior studying Data Science and Statistics at the University of Michigan (Ann Arbor). My interest in data stems as a tool to quench my inquisitiveness, provide answers to the questions that constantly consume my thoughts. I adore basketball and and applying statistics allowed me to better appreciate and understand the game from an unbiased perspective. My curiosity has guided my professional interests toward Data Analytics, Machine and Deep Learning, fields that allow me to transform questions into tangible, real-world insights.
+I'm Alexander Marsh a junior studying Data Science and Statistics at the University of Michigan - Ann Arbor. My interest in data stems as a tool to quench my inquisitiveness, provide answers to the questions that constantly consume my thoughts. I adore basketball and and applying statistics allowed me to better appreciate and understand the game from an unbiased perspective. My curiosity has guided my professional interests toward Data Analytics, Machine Learning and Deep Learning, fields that allow me to transform questions into tangible, real-world insights.
 
 I’m currently working on NCAAB analytics project in partnership with SkillCorner, a player tracking and computer vision company, through MSAS.  
 
