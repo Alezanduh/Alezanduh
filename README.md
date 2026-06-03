@@ -10,6 +10,12 @@ Below is references to some of my work in coding and data analytics:
 
 # Projects
 
+### [NBA Analytics Dashboard](https://github.com/Alezanduh/nba-dashboard/tree/main)
+An interactive, real-time NBA Analytics Dashboard designed to generate visual and numerical post-game summaries for any matchup from the tracking era (2005–present). By inputting a unique NBA game ID, the application dynamically processes raw play-by-play data to model structural shifts, point differentials, and time-decayed game momentum, while leveraging historical context to uncover deeper matchup insights.
+
+Built entirely within a single-language workflow, the platform utilizes Python as its core analytical engine—handling algorithmic computations via Pandas and SciPy, and rendering publication-grade data visualizations with Matplotlib. The reactive front-end interface is driven by Streamlit, enabling seamless, real-time user interaction, parameter manipulation, and instant, top-down visual updates without the need for traditional web architecture.
+
+
 ### [Heliocentrism and Success](https://alexanderhoops.substack.com/p/heliocentrism-and-success)
   - An indepth analysis into the changing formation of NBA stardom among ball-dominate player
   - Analysis on the correlation between additive skills and heliocentrism success in R
