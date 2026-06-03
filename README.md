@@ -1,8 +1,6 @@
 ## Hello! 👋
 
-I'm Alexander Marsh a junior studying Data Science and Statistics at the University of Michigan - Ann Arbor. My interest in data stems as a tool to quench my inquisitiveness, provide answers to the questions that constantly consume my thoughts. I adore basketball and and applying statistics allowed me to better appreciate and understand the game from an unbiased perspective. My curiosity has guided my professional interests toward Data Analytics, Machine Learning and Deep Learning, fields that allow me to transform questions into tangible, real-world insights.
-
-I’m currently working on creating insights in Python for Michigan Mens Basketball during 2024-2025 NCAAB season. This project is in partnership with SkillCorner, a player tracking and computer vision company that allows me to focus on the interaction of double-big picks (specifically Danny Wolf and Vlad Goldin) within Michigan's offensive sets and attempting to extrapolate the usage and success to the following season.
+I'm Alexander Marsh a rising senior studying Data Science and Statistics at the University of Michigan - Ann Arbor. My interest in data stems as a tool to quench my inquisitiveness, provide answers to the questions that constantly consume my thoughts. I adore basketball and and applying statistics allowed me to better appreciate and understand the game from an unbiased perspective. My curiosity has guided my professional interests toward Data Analytics, Machine Learning and Deep Learning, fields that allow me to transform questions into tangible, real-world insights.
 
 If you need to reach me for any reason my email is groethe@umich.edu! 😁
 
@@ -11,10 +9,32 @@ Below is references to some of my work in coding and data analytics:
 # Projects
 
 ### [NBA Analytics Dashboard](https://github.com/Alezanduh/nba-dashboard/tree/main)
+
 An interactive, real-time NBA Analytics Dashboard designed to generate visual and numerical post-game summaries for any matchup from the tracking era (2005–present). By inputting a unique NBA game ID, the application dynamically processes raw play-by-play data to model structural shifts, point differentials, and time-decayed game momentum, while leveraging historical context to uncover deeper matchup insights.
 
 Built entirely within a single-language workflow, the platform utilizes Python as its core analytical engine—handling algorithmic computations via Pandas and SciPy, and rendering publication-grade data visualizations with Matplotlib. The reactive front-end interface is driven by Streamlit, enabling seamless, real-time user interaction, parameter manipulation, and instant, top-down visual updates without the need for traditional web architecture.
 
+### [Insights for University of Michigan Basketball (2024-25)](https://docs.google.com/presentation/d/1n9SdwTaZa_dMbo32Hf92RPkYWGmY6gta/edit?slide=id.p1#slide=id.p1)
+
+A large-scale sports analytics project developed in collaboration with **SkillCorner** for the **University of Michigan Men's Basketball** coaching staff. This project leverages advanced computer vision player-tracking data to estimate possession-level value and optimize tactical decision-making, specifically focusing on pick-and-roll effectiveness between Danny Wolf and Vladislav Goldin. 
+
+The methodologies and findings from this work were selected for presentation at the organization’s annual **Sports Analytics Symposium**.
+
+#### Key Features & Methodologies
+
+* **Advanced Tracking Analytics:** Processed high-frequency player coordinates captured via computer vision to extract spatial features and player spacing vectors.
+* **Possession Value Modeling (XGBoost):** Built and trained an Extreme Gradient Boosting (XGBoost) model to predict the expected value of individual offensive possessions (Shot Quality and EPA) based on tracking metrics.
+* **Tactical Play Evaluation:** Interpreted model results within the context of defensive pick strategies and individual- and team-based matchup components
+* **Coaching Dashboards:** Translated and visualized resulting data inferences into presentation detailing specific strategy recommendations and insights designed for University of Michigan basketball coaching staff.
+
+#### Tech Stack
+
+* **Core Language:** Python (`Pandas`, `NumPy`)
+* **Machine Learning:** `XGBoost`, `Scikit-Learn`
+* **Data Visualization:** Tableau, `Matplotlib`, `Seaborn`
+* **Data Source:** SkillCorner Computer Vision Tracking Data
+
+Due to NDA agreements upon propritary data, backend code for this project cannot be provided.
 
 ### [Heliocentrism and Success](https://alexanderhoops.substack.com/p/heliocentrism-and-success)
   - An indepth analysis into the changing formation of NBA stardom among ball-dominate player
