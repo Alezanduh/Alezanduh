@@ -6,87 +6,65 @@ If you need to reach me for any reason my email is groethe@umich.edu! 😁
 
 Below is references to some of my work in coding and data analytics:
 
-# Projects
+# Featured Projects
+
+## Sports Analytics & Machine Learning
 
 ### [NBA Analytics Dashboard](https://github.com/Alezanduh/nba-dashboard/tree/main)
-
-An interactive, real-time NBA Analytics Dashboard designed to generate visual and numerical post-game summaries for any matchup from the tracking era (2005–present). By inputting a unique NBA game ID, the application dynamically processes raw play-by-play data to model structural shifts, point differentials, and time-decayed game momentum, while leveraging historical context to uncover deeper matchup insights.
-
-Built entirely within a single-language workflow, the platform utilizes Python as its core analytical engine—handling algorithmic computations via Pandas and SciPy, and rendering publication-grade data visualizations with Matplotlib. The reactive front-end interface is driven by Streamlit, enabling seamless, real-time user interaction, parameter manipulation, and instant, top-down visual updates without the need for traditional web architecture.
+- Built an interactive, real-time NBA analytics dashboard that generates visual and numerical post-game summaries for matchups from the tracking era (2005–present).
+- Designed a game ID-driven workflow that processes play-by-play data to model structural shifts, point differentials, and time-decayed momentum.
+- Combined historical context with dynamic visualization to support deeper matchup analysis.
+- **Tech used:** Python, Pandas, SciPy, Matplotlib, Streamlit.
 
 ### [Insights for University of Michigan Basketball (2024-25)](https://docs.google.com/presentation/d/1n9SdwTaZa_dMbo32Hf92RPkYWGmY6gta/edit?slide=id.p1#slide=id.p1)
+- Developed a sports analytics project with **SkillCorner** for the **University of Michigan Men's Basketball** coaching staff.
+- Processed high-frequency computer vision tracking data to engineer spatial and spacing features.
+- Built an XGBoost possession value model to estimate offensive outcomes (Shot Quality and EPA) and evaluate pick-and-roll decisions.
+- Translated model outputs into coach-facing visual dashboards and strategy recommendations.
+- Selected to present methodology and findings at the organization’s annual **Sports Analytics Symposium**.
+- **Tech used:** Python, Pandas, NumPy, XGBoost, Scikit-Learn, Tableau, Matplotlib, Seaborn.
 
-A large-scale sports analytics project developed in collaboration with **SkillCorner** for the **University of Michigan Men's Basketball** coaching staff. This project leverages advanced computer vision player-tracking data to estimate possession-level value and optimize tactical decision-making, specifically focusing on pick-and-roll effectiveness between Danny Wolf and Vladislav Goldin. 
-
-The methodologies and findings from this work were selected for presentation at the organization’s annual **Sports Analytics Symposium**.
-
-#### Key Features & Methodologies
-
-* **Advanced Tracking Analytics:** Processed high-frequency player coordinates captured via computer vision to extract spatial features and player spacing vectors.
-* **Possession Value Modeling (XGBoost):** Built and trained an Extreme Gradient Boosting (XGBoost) model to predict the expected value of individual offensive possessions (Shot Quality and EPA) based on tracking metrics.
-* **Tactical Play Evaluation:** Interpreted model results within the context of defensive pick strategies and individual- and team-based matchup components
-* **Coaching Dashboards:** Translated and visualized resulting data inferences into presentation detailing specific strategy recommendations and insights designed for University of Michigan basketball coaching staff.
-
-#### Tech Stack
-
-* **Core Language:** Python (`Pandas`, `NumPy`)
-* **Machine Learning:** `XGBoost`, `Scikit-Learn`
-* **Data Visualization:** Tableau, `Matplotlib`, `Seaborn`
-* **Data Source:** SkillCorner Computer Vision Tracking Data
-
-Due to NDA agreements upon propritary data, backend code for this project cannot be provided.
+Due to NDA restrictions on proprietary data, the backend code for this project cannot be shared.
 
 ### [Heliocentrism and Success](https://alexanderhoops.substack.com/p/heliocentrism-and-success)
-  - An indepth analysis into the changing formation of NBA stardom among ball-dominate player
-  - Analysis on the correlation between additive skills and heliocentrism success in R
+- Wrote an in-depth analysis of how NBA stardom has evolved around ball-dominant players.
+- Analyzed the relationship between additive skills and heliocentric success using R.
+
+## Analytics, Statistics & Software Engineering Projects
 
 ### [R-Tutorials for MSAS](https://github.com/Alezanduh/r-tutorials)
-  - A collection of tutorial designed for group instruction in R
-  - Provide a cohesive understanding of R for a sports-themed analytics project presented at our end-of-year symposium
+- Created a collection of R tutorials for group instruction.
+- Structured lessons to support a sports-themed analytics project presented at an end-of-year symposium.
 
 ### [Traveling Sales Person Problem](https://github.com/Alezanduh/p4-donuts)
-  - Created greedy and optimized implementations of the traveling salesperson problem in C++
-  - Used Furthest Neighbor, 2-opt and Prim's algorithm to resolve multiple solutions
+- Implemented greedy and optimized C++ solutions to the Traveling Salesperson Problem.
+- Applied Furthest Neighbor, 2-opt, and Prim’s algorithm to evaluate multiple route-construction strategies.
 
-### [Euchre](https://github.com/Alezanduh/p2-euchre.git)
-  - Created a functional game of euchre that is both 2-person playable and playable against a non-player user in C++
-  - Implemented niche game and scoring rules
-  - Ensured optimal play for non-human player
+### [Euchre](https://github.com/Alezanduh/p2-euchre)
+- Built a fully functional Euchre game in C++ for two-player and human-vs-computer play.
+- Implemented detailed game and scoring rules with logic for strong non-human play.
 
 ### [Bank Access](https://github.com/Alezanduh/p3-281bank)
-  - Implemented a bank transaction system through confirming users credentials and login information in C++
-  - Used hash tables to index and ensure effeciency in queries and info storage
+- Built a C++ bank transaction system with credential validation and login handling.
+- Used hash tables to support efficient query performance and transaction data storage.
 
-### [Cinderella Predictors](https://docs.google.com/presentation/d/1L0eY-xGVYUHazh4MgHD3CDBWgIih38v5ZhzXPwgwK48/edit?slide=id.p1#slide=id.p1) 
-  - Analyzed NCAA March Madness tournament data in R to identify statistical predictors of "Cinderella" teams' success
-  - Built logistic regression models and random forest classifiers to test hypotheses that were presented at MSAS symposium in front of roughly 100 attendees, demonstrating strong     communication of statistical findings
+### [Cinderella Predictors](https://docs.google.com/presentation/d/1L0eY-xGVYUHazh4MgHD3CDBWgIih38v5ZhzXPwgwK48/edit?slide=id.p1#slide=id.p1)
+- Analyzed NCAA March Madness data in R to identify statistical predictors of Cinderella-team success.
+- Built logistic regression and random forest models to test hypotheses and communicate findings at the MSAS symposium.
 
 ### [MUgSS Datathon Project](https://docs.google.com/presentation/d/1L0eY-xGVYUHazh4MgHD3CDBWgIih38v5ZhzXPwgwK48/edit?slide=id.p1#slide=id.p1)
-  - Implemented PCA, random forest classification and ANOVA tests in R to analyze greatest predictors of a song’s genre
-  - Presented findings in front a panel of 4 professionals within the field of data science and statistics
+- Applied PCA, random forest classification, and ANOVA in R to analyze predictors of song genre.
+- Presented findings to a panel of four professionals in data science and statistics.
 
+## Technical Skills
+- **Programming:** Python, R, C++
+- **Machine Learning & Statistics:** XGBoost, Scikit-Learn, logistic regression, random forest, PCA, ANOVA
+- **Data Analysis & Visualization:** Pandas, NumPy, Matplotlib, Seaborn, Tableau
+- **Data & Tools:** Streamlit, MySQL, MongoDB, PostgreSQL
 
-## Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/alexandergroethe) 
+## Socials
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/alexandergroethe)
 
-## Tech Stack:
+## Tech Stack
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
-
-<!--
-**Alezanduh/Alezanduh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
 
